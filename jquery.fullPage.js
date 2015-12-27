@@ -1136,14 +1136,15 @@
             //isn't there a next slide in the secuence?
             if(!destiny.length){
                 //respect loopHorizontal settin
-                if (!options.loopHorizontal) return;
+                //if (!options.loopHorizontal) return;
 
-                if(direction === 'prev'){
-                    destiny = currentSlide.siblings(':last');
-                }else{
-                    destiny = currentSlide.siblings(':first');
-                }
-            }
+                //if(direction === 'prev'){
+                  //  destiny = currentSlide.siblings(':last');
+                //}else{
+                  //  destiny = currentSlide.siblings(':first');
+                //}
+                return ;
+            } 
 
             slideMoving = true;
 
