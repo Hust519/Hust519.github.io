@@ -348,7 +348,7 @@
         * Moves the page to the given section and slide.
         * Anchors or index positions can be used as params.
         */
-        FP.moveTo = function (sectionAnchor, slideAnchor){
+        FP.moveTo = function (slideAnchor, sectionAnchor){
             var destiny = getSectionByAnchor(sectionAnchor);
 
             if (typeof slideAnchor !== 'undefined'){
